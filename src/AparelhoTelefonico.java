@@ -1,5 +1,8 @@
-public class AparelhoTelefonico {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+public interface AparelhoTelefonico {
+
+    public void ligar();
+
+    public void atender();
+
+    public void iniciarCorrerioVoz();
 }

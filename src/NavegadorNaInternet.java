@@ -1,6 +1,9 @@
-public class NavegadorNaInternet {
-    
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+public interface NavegadorNaInternet {
+
+    public void exibirPagina();
+
+    public void adicionarNovaAba();
+
+    public void atualizarPagina();
+
 }

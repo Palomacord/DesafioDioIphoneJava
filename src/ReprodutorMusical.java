@@ -1,5 +1,8 @@
-public class ReprodutorMusical {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+public interface ReprodutorMusical {
+
+    public void tocar();
+
+    public void pausar();
+
+    public void selecionarMusica();
 }
